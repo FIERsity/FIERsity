@@ -48,9 +48,9 @@ I enjoy AI-assisted development: moving quickly from an idea to a working system
     <img width="49%" src="https://github-stats-extended.vercel.app/api?username=FIERsity&show_icons=true&theme=default&hide_rank=true&include_all_commits=true&custom_title=Building+in+public" alt="Fier's GitHub activity" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview.svg" />
-    <img width="49%" src="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview.svg" alt="Fier's contribution activity overview" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview.svg?v=2" />
+    <img width="49%" src="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview.svg?v=2" alt="Fier's contribution activity overview" />
   </picture>
 </div>
 
