@@ -19,11 +19,6 @@ I'm a student focused on **econometrics and empirical research**, with a foundat
 
 I enjoy AI-assisted development: moving quickly from an idea to a working system, then making it inspectable with tests, explicit assumptions, provenance, and reproducible workflows. Recently, I've been exploring **AI for mathematical reasoning**—especially how models reason, verify, and fail on mathematical problems.
 
-- 📐 Interested in econometrics, causal inference, and empirical research
-- 🧪 Building transparent and reproducible research infrastructure
-- 🤖 Exploring AI for Math and coding-agent workflows
-- 🛠️ Learning by shipping, testing, and revising in public
-
 ## Selected work
 
 <table>
@@ -56,11 +51,21 @@ I enjoy AI-assisted development: moving quickly from an idea to a working system
 ## Toolbox
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,r,rust,cs,latex,git,github,bash&theme=dark&perline=8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,r,rust,cs,latex,git,github,bash&theme=light&perline=8" />
-    <img src="https://skillicons.dev/icons?i=python,r,rust,cs,latex,git,github,bash&theme=light&perline=8" alt="Python, R, Rust, C#, LaTeX, Git, GitHub, and Bash" />
-  </picture>
+  <img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" height="48" alt="Python" title="Python" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=r&theme=dark" width="48" height="48" alt="R" title="R" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=rust&theme=dark" width="48" height="48" alt="Rust" title="Rust" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=cs&theme=dark" width="48" height="48" alt="C#" title="C#" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=latex&theme=dark" width="48" height="48" alt="LaTeX" title="LaTeX" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" title="Git" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" title="GitHub" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="48" height="48" alt="Bash" title="Bash" />
 </div>
 
 ## GitHub activity
