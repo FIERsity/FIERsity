@@ -19,35 +19,6 @@ I'm a student focused on **econometrics and empirical research**, with a foundat
 
 I enjoy AI-assisted development: moving quickly from an idea to a working system, then making it inspectable with tests, explicit assumptions, provenance, and reproducible workflows. Recently, I've been exploring **AI for mathematical reasoning**—especially how models reason, verify, and fail on mathematical problems.
 
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/FIERsity/china-prefecture-crosswalk">China Urban Research Entity Crosswalk</a></h3>
-      <p>A versioned crosswalk for Chinese prefecture-level entities and administrative changes, built for longitudinal regional and urban research.</p>
-      <sub>Python · Research data · Entity resolution · GitHub Pages</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/FIERsity/empirical-research-standards">Empirical Research Standards</a></h3>
-      <p>A transparent, testable toolkit for data validation, foundational econometrics, diagnostics, reporting, and reproducible empirical workflows.</p>
-      <sub>Python · R · Econometrics · Reproducible research</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/FIERsity/ContextWeaver">ContextWeaver</a></h3>
-      <p>A file-first, resumable framework for translating long, context-dependent documents with language models and coding agents.</p>
-      <sub>Python · AI agents · Context engineering · CLI</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/FIERsity/codex-rehome">Codex Rehome</a></h3>
-      <p>A defensive CLI for inspecting, remapping, moving, verifying, and rolling back local Codex workspace associations.</p>
-      <sub>Rust · CLI · SQLite · Safety-first tooling</sub>
-    </td>
-  </tr>
-</table>
-
 ## Toolbox
 
 <div align="center">
@@ -74,7 +45,12 @@ I enjoy AI-assisted development: moving quickly from an idea to a working system
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=FIERsity&show_icons=true&theme=github_dark&hide_rank=true&include_all_commits=true&custom_title=Building+in+public" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=FIERsity&show_icons=true&theme=default&hide_rank=true&include_all_commits=true&custom_title=Building+in+public" />
-    <img src="https://github-stats-extended.vercel.app/api?username=FIERsity&show_icons=true&theme=default&hide_rank=true&include_all_commits=true&custom_title=Building+in+public" alt="Fier's GitHub activity" />
+    <img width="49%" src="https://github-stats-extended.vercel.app/api?username=FIERsity&show_icons=true&theme=default&hide_rank=true&include_all_commits=true&custom_title=Building+in+public" alt="Fier's GitHub activity" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview.svg" />
+    <img width="49%" src="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview.svg" alt="Fier's contribution activity overview" />
   </picture>
 </div>
 
