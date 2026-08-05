@@ -93,8 +93,8 @@ def activity_svg(counts: dict[str, int], *, dark: bool) -> str:
     border = "#30363d" if dark else "#d0d7de"
     text = "#8b949e" if dark else "#57606a"
     axis = "#39d353" if dark else "#1f883d"
-    center_x, center_y = 248, 98
-    left_x, right_x, top_y, bottom_y = 126, 370, 37, 159
+    center_x, center_y = 152, 98
+    left_x, right_x, top_y, bottom_y = 78, 226, 37, 159
 
     bars = {
         "commits": (center_x - (center_x - left_x) * pct["commits"] / 100, center_y),
@@ -107,12 +107,12 @@ def activity_svg(counts: dict[str, int], *, dark: bool) -> str:
     for name, (x, y) in bars.items():
         if pct[name] == 0:
             continue
-        highlights.append(
-            f'<line x1="{center_x}" y1="{center_y}" x2="{x:.1f}" y2="{y:.1f}" class="bar" />'
-            f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5" class="endpoint" />'
-        )
+        highlight = f'<line x1="{center_x}" y1="{center_y}" x2="{x:.1f}" y2="{y:.1f}" class="bar" />'
+        if abs(x - center_x) + abs(y - center_y) >= 10:
+            highlight += f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5" class="endpoint" />'
+        highlights.append(highlight)
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="304" height="195" viewBox="0 0 304 195" role="img" aria-labelledby="title desc">
   <title id="title">Contribution activity overview</title>
   <desc id="desc">Last twelve months: {pct['commits']} percent commits, {pct['issues']} percent issues, {pct['pull_requests']} percent pull requests, and {pct['reviews']} percent code reviews.</desc>
   <style>
@@ -122,15 +122,15 @@ def activity_svg(counts: dict[str, int], *, dark: bool) -> str:
     .bar {{ stroke: {axis}; stroke-width: 9; stroke-linecap: round; opacity: .38; }}
     .endpoint {{ fill: {background}; stroke: {axis}; stroke-width: 4; }}
   </style>
-  <rect x="0.5" y="0.5" width="494" height="194" rx="6" fill="{background}" stroke="{border}" />
+  <rect x="0.5" y="0.5" width="303" height="194" rx="6" fill="{background}" stroke="{border}" />
   <line x1="{left_x}" y1="{center_y}" x2="{right_x}" y2="{center_y}" class="axis" />
   <line x1="{center_x}" y1="{top_y}" x2="{center_x}" y2="{bottom_y}" class="axis" />
   {''.join(highlights)}
   <circle cx="{center_x}" cy="{center_y}" r="5" class="endpoint" />
-  {label_lines('Commits', pct['commits'], 112, 98, 'end')}
-  {label_lines('Issues', pct['issues'], 384, 98, 'start')}
-  {label_lines('Code review', pct['reviews'], 248, 20, 'middle')}
-  {label_lines('Pull requests', pct['pull_requests'], 248, 177, 'middle')}
+  {label_lines('Commits', pct['commits'], 66, 98, 'end')}
+  {label_lines('Issues', pct['issues'], 238, 98, 'start')}
+  {label_lines('Code review', pct['reviews'], 152, 20, 'middle')}
+  {label_lines('Pull requests', pct['pull_requests'], 152, 177, 'middle')}
 </svg>
 """
 
