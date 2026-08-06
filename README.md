@@ -30,11 +30,19 @@ I enjoy AI-assisted development: moving quickly from an idea to a working system
   &nbsp;
   <img src="https://skillicons.dev/icons?i=cs&theme=dark" width="48" height="48" alt="C#" title="C#" />
   &nbsp;
+  <img src="https://skillicons.dev/icons?i=ruby&theme=dark" width="48" height="48" alt="Ruby" title="Ruby" />
+  &nbsp;
   <img src="https://skillicons.dev/icons?i=latex&theme=dark" width="48" height="48" alt="LaTeX" title="LaTeX" />
+  &nbsp;
+  <img src="https://avatars.githubusercontent.com/u/7233018?v=4&s=96" width="48" height="48" alt="Lean" title="Lean" />
   &nbsp;
   <img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" title="Git" />
   &nbsp;
   <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" title="GitHub" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="48" height="48" alt="GitHub Actions" title="GitHub Actions" />
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" title="Docker" />
   &nbsp;
   <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="48" height="48" alt="Bash" title="Bash" />
 </div>
