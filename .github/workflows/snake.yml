@@ -14,7 +14,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Check out the profile repository
@@ -33,6 +33,22 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&custom_title=Building+in+public&theme=github_dark
+          path: dist/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&custom_title=Building+in+public&theme=default
+          path: dist/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
