@@ -51,9 +51,9 @@ I enjoy AI-assisted development: moving quickly from an idea to a working system
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=FIERsity&show_icons=true&theme=github_dark&hide_rank=true&include_all_commits=true&custom_title=Building+in+public" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=FIERsity&show_icons=true&theme=default&hide_rank=true&include_all_commits=true&custom_title=Building+in+public" />
-    <img width="49%" src="https://github-stats-extended.vercel.app/api?username=FIERsity&show_icons=true&theme=default&hide_rank=true&include_all_commits=true&custom_title=Building+in+public" alt="Fier's GitHub activity" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/stats-light.svg" />
+    <img width="49%" src="https://raw.githubusercontent.com/FIERsity/FIERsity/output/stats-light.svg" alt="Fier's GitHub activity" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FIERsity/FIERsity/output/activity-overview-dark.svg?v=2" />
